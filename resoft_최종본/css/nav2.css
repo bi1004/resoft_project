@@ -1,0 +1,105 @@
+nav {
+  max-width: 1920px;
+  position: relative;
+  height: 80px;
+  border: 1px solid #dbdbdb;
+  background-color: #ffffff;
+  z-index: 0;
+  box-sizing: border-box;
+}
+
+nav.menu {
+  width: 1180px;
+  margin: 0px auto;
+  position: relative;
+}
+
+nav .menu .logo {
+  position: absolute;
+  left: 320px;
+  bottom: 20px;
+  top: 23px;
+  width: 130px;
+}
+
+nav .menu .logo img {
+  width: 133px;
+  height: 30px;
+}
+
+nav .menu #menu-list {
+  top: 26px;
+  right: 250px;
+  width: 450px;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+}
+
+nav .menu #menu-list li {
+  list-style: none;
+}
+
+nav .menu #menu-list li a:hover {
+  color: #184b9f;
+  border-bottom: 5px solid #184b9f;
+}
+
+nav .menu #menu-list li a {
+  color: #000;
+  letter-spacing: 0;
+  text-align: left;
+  font: normal normal bold 20px/29px Noto Sans KR;
+  letter-spacing: 0px;
+  opacity: 1;
+  text-decoration: none;
+}
+
+nav .menu .ham {
+  width: 33px;
+  height: 33px;
+  border: 0;
+  position: absolute;
+  top: 25px;
+  right: 200px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+/* 추가 */
+nav .menu .ham_total #ham_bg {
+  display: none;
+  top: 80px;
+  right: 0px;
+  width: 1920px;
+  height: 200px;
+  position: absolute;
+  background-color: #184b9f;
+  opacity: 0.8;
+}
+nav .menu #ham_list {
+  display: flex;
+  justify-content: space-evenly;
+  right: 250px;
+  width: 450px;
+  height: 263px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+nav .menu #ham_list a {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: left;
+  font: normal normal bold 20px/25px Noto Sans KR;
+  opacity: 1;
+  text-decoration: none;
+}
+
+nav .menu #ham_list li {
+  list-style: none;
+}
+nav .menu .ham_total span {
+  display: flex;
+  margin-bottom: 7px;
+}

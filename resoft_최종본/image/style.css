@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+}
+.return-btn {
+  width: 8px;
+  height: 8px;
+  background-color: black;
+  border-radius: 100%;
+  padding: 2px;
+  /* font-size: 9px; */
+}
+
+.return {
+  cursor: pointer;
+}
+.return-text {
+  font-size: 7px;
+  vertical-align: middle;
+}
+/* .return > *:not(.return-text):hover,
+.return-text:hover {
+  background-color: blue;
+  color: blue;
+} */
+.return:hover {
+  color: blue;
+  /* filter: brightness(0.5) sepia(1) hue-rotate(140deg) saturate(6); */
+  filter: invert(21%) sepia(89%) saturate(1916%) hue-rotate(206deg)
+    brightness(84%) contrast(87%);
+}
