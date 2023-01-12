@@ -1,2 +1,2 @@
 # 💻 resoft_project
-✏️ resoft 홈페이지 클론코딩
+### ✏️ resoft 홈페이지 클론코딩
