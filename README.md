@@ -8,6 +8,8 @@ RESOFT 홈페이지를 참고해 만든 프로젝트 입니다!
 
 ### 🖱️ header
 
+- 상단 메뉴바 (메인화면) : 마우스를 올렸을 때 펼쳐지는 기능
+
 <img width="80%" src="https://user-images.githubusercontent.com/103248831/213078862-7a89fe95-1b8f-467c-a167-f844d389ea4f.png"/>
 
 <img width="80%" src="https://user-images.githubusercontent.com/103248831/213078951-d49089e8-d9f4-4840-8275-1d034168c0e5.png"/>
